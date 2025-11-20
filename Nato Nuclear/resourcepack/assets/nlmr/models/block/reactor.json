@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down":"nlmr:block/reactor_down",
+        "up":"nlmr:block/reactor_up",
+        "north":"nlmr:block/reactor_side",
+        "west":"nlmr:block/reactor_side",
+        "east":"nlmr:block/reactor_side",
+        "south":"nlmr:block/reactor_side"
+    }
+}
