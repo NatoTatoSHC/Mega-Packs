@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RrR",
+    " R "
+  ],
+  "key": {
+    "R": [
+      "minecraft:redstone"
+    ],
+    "r": [
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "result": {
+    "id": "minecraft:heart_of_the_sea",
+    "components": {
+      "minecraft:custom_name": "Uranium",
+      "minecraft:item_model": "nn:uranium"
+    }
+  }
+}
