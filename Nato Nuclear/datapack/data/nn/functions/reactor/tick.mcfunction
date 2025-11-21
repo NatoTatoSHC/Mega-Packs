@@ -1,0 +1,2 @@
+execute as @s at @s if block ~ ~ ~ dropper{Items:[{id:"music_disc_5",count:1,components:{"custom_data":{"uranium":1b}}}]} run function nn:reactor/loaded
+execute as @s at @s if score @s nuke_time > zero zero run function nn:reactor/running
