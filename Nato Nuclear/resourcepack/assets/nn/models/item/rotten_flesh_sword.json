@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0":"nn:item/rotten_flesh_sword"
+    }
+}

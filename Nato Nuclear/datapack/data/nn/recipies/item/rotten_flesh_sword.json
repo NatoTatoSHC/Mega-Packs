@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " r ",
+    " r ",
+    " s "
+  ],
+  "key": {
+    "r": "minecraft:rotten_flesh",
+    "s": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:weapon": {
+        "item_damage_per_attack": 3
+      },
+      "minecraft:custom_name": {
+        "text": "Rotten Flesh Sword",
+        "italic": false
+      },
+      "minecraft:item_model": "nn:rotten_flesh_sword",
+      "minecraft:lore": [
+        {
+          "text": "Eww, that's gross",
+          "color": "#324e32",
+          "italic": false
+        }
+      ]
+    }
+  }
+}
