@@ -1,0 +1,1 @@
+summon fireball ~ ~40 ~ {Motion:[0f,-1f,0f], Item:{id:"minecraft:diamond",components:{"item_model":"nn:nuke"}},ExplosionPower:255}
