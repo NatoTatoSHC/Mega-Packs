@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh"
+  ],
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 4,
+        "sound": "minecraft:item.honey_bottle.drink",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:poison",
+                "duration": 10,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation": 100
+      },
+      "minecraft:item_model": "nn:rotten_soup",
+      "minecraft:custom_name": {
+        "text": "Rotten Soup",
+        "color": "#4c764c",
+        "italic": false
+      },
+      "minecraft:lore": [
+        "Dare you to drink it.",
+        "You wouldn't"
+      ]
+    }
+  }
+}
